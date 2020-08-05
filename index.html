@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="content-wrapper container d-flex flex-column align-items-center">
+  <div class="content-wrapper container-fluid d-flex flex-column align-items-center">
     <div class="mt-5 mb-3">
       <h2>Login/Register</h2>
     </div>
@@ -36,7 +36,7 @@
               <label for="exampleInputPassword1">Password</label>
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <button type="submit" class="btn btn-primary">Login</button>
+            <button type="submit" class="btn btn-primary" action="/login" method="POST">Login</button>
           </form>
         </div>
         <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
@@ -53,7 +53,7 @@
               <label for="exampleInputPassword1">Password</label>
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <button type="submit" class="btn btn-primary">Register</button>
+            <button type="submit" class="btn btn-primary" action="/register" method="POST">Register</button>
           </form>
         </div>
       </div>
@@ -63,8 +63,7 @@
       <p>Developed by: Tahsin Al Mahi</p>
     </footer>
   </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

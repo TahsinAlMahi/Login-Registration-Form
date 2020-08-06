@@ -1,2 +1,8 @@
 # Login-Registration-Form
-A simple tabbed login-registration form using Bootstrap.
+<img src="https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white">
+
+Features:
+* Simple
+* Responsive
+* No complex markups
+* Plug and play

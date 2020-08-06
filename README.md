@@ -5,4 +5,5 @@ Features:
 * Simple
 * Responsive
 * No complex markups
+* Login and Registration features are tabbed
 * Plug and play
